@@ -38,14 +38,5 @@ h1 {
     text-transform: uppercase;
 }
 
-/** CODIGO RESPONSIVE AQUI **/
+/** CODIGO RESPONSIVO AQUI **/
 
-@media (min-width: 768px) {
-    
-    .dos-columnas {
-        display: grid;
-        grid-template-columns: 50% 50%; /*AMBAS COLUMNAS TOMAN EL 50 POR CIENT0 DEL ESPACIO TOTAL*/
-        column-gap: 2rem; /*Separacion entre columnas*/
-
-        }
-}
