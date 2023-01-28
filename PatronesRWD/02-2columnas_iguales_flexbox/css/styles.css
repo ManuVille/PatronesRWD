@@ -40,3 +40,13 @@ h1 {
 
 /** CODIGO RESPONSIVO AQUI **/
 
+@media (min-width: 768px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .entrada-blog {
+        flex: 0 0 calc( 50% - 1rems);
+    }
+}
